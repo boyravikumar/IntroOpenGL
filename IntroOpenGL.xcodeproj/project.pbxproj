@@ -14,6 +14,16 @@
 		0FED13F41B42586E005C819D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FED13F31B42586E005C819D /* Images.xcassets */; };
 		0FED13F71B42586E005C819D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FED13F51B42586E005C819D /* LaunchScreen.xib */; };
 		0FED14031B42586E005C819D /* IntroOpenGLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FED14021B42586E005C819D /* IntroOpenGLTests.m */; };
+		0FED14141B425D27005C819D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FED14131B425D27005C819D /* OpenGLES.framework */; };
+		0FED14161B425D2F005C819D /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FED14151B425D2F005C819D /* GLKit.framework */; };
+		0FED14181B425D37005C819D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FED14171B425D37005C819D /* CoreGraphics.framework */; };
+		0FED141A1B425D58005C819D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FED14191B425D58005C819D /* Foundation.framework */; };
+		0FED141C1B425D5F005C819D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FED141B1B425D5F005C819D /* UIKit.framework */; };
+		0FED141E1B425D66005C819D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FED141D1B425D66005C819D /* QuartzCore.framework */; };
+		0FED14251B427B03005C819D /* Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FED14241B427B03005C819D /* Sprite.m */; };
+		0FED142B1B42ABA5005C819D /* rocket.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FED142A1B42ABA5005C819D /* rocket.png */; };
+		0FED142D1B42D9DE005C819D /* rock.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FED142C1B42D9DE005C819D /* rock.png */; };
+		0FED142F1B43A646005C819D /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FED142E1B43A646005C819D /* ball.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +50,17 @@
 		0FED13FC1B42586E005C819D /* IntroOpenGLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntroOpenGLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FED14011B42586E005C819D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FED14021B42586E005C819D /* IntroOpenGLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroOpenGLTests.m; sourceTree = "<group>"; };
+		0FED14131B425D27005C819D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		0FED14151B425D2F005C819D /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		0FED14171B425D37005C819D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0FED14191B425D58005C819D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0FED141B1B425D5F005C819D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0FED141D1B425D66005C819D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0FED14231B427B03005C819D /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sprite.h; path = ../Sprite.h; sourceTree = "<group>"; };
+		0FED14241B427B03005C819D /* Sprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Sprite.m; path = ../Sprite.m; sourceTree = "<group>"; };
+		0FED142A1B42ABA5005C819D /* rocket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocket.png; sourceTree = "<group>"; };
+		0FED142C1B42D9DE005C819D /* rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rock.png; sourceTree = "<group>"; };
+		0FED142E1B43A646005C819D /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +68,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FED141E1B425D66005C819D /* QuartzCore.framework in Frameworks */,
+				0FED141C1B425D5F005C819D /* UIKit.framework in Frameworks */,
+				0FED141A1B425D58005C819D /* Foundation.framework in Frameworks */,
+				0FED14181B425D37005C819D /* CoreGraphics.framework in Frameworks */,
+				0FED14161B425D2F005C819D /* GLKit.framework in Frameworks */,
+				0FED14141B425D27005C819D /* OpenGLES.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +90,15 @@
 		0FED13DA1B42586D005C819D = {
 			isa = PBXGroup;
 			children = (
+				0FED142E1B43A646005C819D /* ball.png */,
+				0FED142C1B42D9DE005C819D /* rock.png */,
+				0FED142A1B42ABA5005C819D /* rocket.png */,
+				0FED141D1B425D66005C819D /* QuartzCore.framework */,
+				0FED141B1B425D5F005C819D /* UIKit.framework */,
+				0FED14191B425D58005C819D /* Foundation.framework */,
+				0FED14171B425D37005C819D /* CoreGraphics.framework */,
+				0FED14151B425D2F005C819D /* GLKit.framework */,
+				0FED14131B425D27005C819D /* OpenGLES.framework */,
 				0FED13E51B42586E005C819D /* IntroOpenGL */,
 				0FED13FF1B42586E005C819D /* IntroOpenGLTests */,
 				0FED13E41B42586E005C819D /* Products */,
@@ -83,6 +119,8 @@
 			children = (
 				0FED13EA1B42586E005C819D /* AppDelegate.h */,
 				0FED13EB1B42586E005C819D /* AppDelegate.m */,
+				0FED14231B427B03005C819D /* Sprite.h */,
+				0FED14241B427B03005C819D /* Sprite.m */,
 				0FED13ED1B42586E005C819D /* ViewController.h */,
 				0FED13EE1B42586E005C819D /* ViewController.m */,
 				0FED13F01B42586E005C819D /* Main.storyboard */,
@@ -200,8 +238,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FED13F21B42586E005C819D /* Main.storyboard in Resources */,
+				0FED142B1B42ABA5005C819D /* rocket.png in Resources */,
+				0FED142D1B42D9DE005C819D /* rock.png in Resources */,
 				0FED13F71B42586E005C819D /* LaunchScreen.xib in Resources */,
 				0FED13F41B42586E005C819D /* Images.xcassets in Resources */,
+				0FED142F1B43A646005C819D /* ball.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +262,7 @@
 			files = (
 				0FED13EF1B42586E005C819D /* ViewController.m in Sources */,
 				0FED13EC1B42586E005C819D /* AppDelegate.m in Sources */,
+				0FED14251B427B03005C819D /* Sprite.m in Sources */,
 				0FED13E91B42586E005C819D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,8 +390,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IntroOpenGL/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -358,8 +402,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IntroOpenGL/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -416,6 +462,7 @@
 				0FED14081B42586E005C819D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0FED14091B42586E005C819D /* Build configuration list for PBXNativeTarget "IntroOpenGLTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +471,7 @@
 				0FED140B1B42586E005C819D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
